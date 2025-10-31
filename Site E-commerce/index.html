@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site E-commerce</title>
+</head>
+<header>
+    <nav id="nav">
+        <div class="nav-top">
+            <div class="nav-img">
+                <img src="/img/sneakers.png" alt="">
+            </div>
+            <div class="nav-item">
+                <div class="search">
+                    <input type="text" placeholder="Pesquisar" class="search-input">
+                    <img src="/img/search.png" width="20" height="20" class="search-icon">
+                </div>
+            </div>
+            <div class="nav-item">
+                <span class="limited-offer">Oferta Limitada!</span>
+            </div>
+        </div>
+        <div class="nav-bottom">
+            <h3 class="menu-item active">AIR FORCE</h3>
+            <h3 class="menu-item">AIR JORDAN</h3>
+            <h3 class="menu-item">BLAZER</h3>
+            <h3 class="menu-item">CRATER</h3>
+            <h3 class="menu-item">HIPPIE</h3>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="slider">
+        <div class="slider-wrapper">
+            <div class="slider-item">
+                <img src="/img/air2.png" alt="" class="slider-img">
+                <div class="slider-bg"></div>
+                <h1 class="slider-title">AIR FORCE</h1>
+                <h2 class="slider-price">R$671.59</h2>
+                <a href="#product">
+                    <button class="buy-button">Compre Agora</button>
+                </a>
+            </div>
+            <div class="slider-item">
+                <img src="/img/jordan.png" alt="" class="slider-img">
+                <div class="slider-bg"></div>
+                <h1 class="slider-title">AIR JORDAN</h1>
+                <h2 class="slider-price">R$840.90</h2>
+                <a href="#product">
+                    <button class="buy-button">Compre Agora</button>
+                </a>
+            </div>
+            <div class="slider-item">
+                <img src="/img/blazer.png" alt="" class="slider-img">
+                <div class="slider-bg"></div>
+                <h1 class="slider-title">BLAZER</h1>
+                <h2 class="slider-price">R$615.15</h2>
+                <a href="#product">
+                    <button class="buy-button">Compre Agora</button>
+                </a>
+            </div>
+            <div class="slider-item">
+                <img src="/img/crater.png" alt="" class="slider-img">
+                <div class="slider-bg"></div>
+                <h1 class="slider-title">CRATER</h1>
+                <h2 class="slider-price">R$728.02</h2>
+                <a href="#product">
+                    <button class="buy-button">Compre Agora</button>
+                </a>
+            </div>
+            <div class="slider-item">
+                <img src="/img/hippie.png" alt="" class="slider-img">
+                <div class="slider-bg"></div>
+                <h1 class="slider-title">HIPPIE</h1>
+                <h2 class="slider-price">R$558.72</h2>
+                <a href="#product">
+                    <button class="buy-button">Compre Agora</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="/img/shipping.png" alt="" class="feature-icon">
+            <span class="feature-title">Frete Grátis</span>
+        </div>
+        <div class="feature">
+            <img src="/img/return.png" alt="" class="feature-icon">
+            <span class="feature-title">30 dias para devolução</span>
+            <span class="feature-desc">Ressarcimento em 14 dias</span>
+        </div>
+        <div class="feature">
+            <img src="/img/contact.png" alt="" class="feature-icon">
+            <span class="feature-title">Entre em contato</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="/img/jordan.png" alt="" class="product-img">
+        <div class="product-details">
+            <h1 class="product-title">AIR JORDAN</h1>
+            <h2 class="product-price">R$840.90</h2>
+            <p class="product-desc">Os tênis Air Jordan são um dos produtos mais famosos da linha, com diversos modelos
+                e cores.</p>
+        </div>
+        <div class="colors">
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <div class="sizes">
+            <div class="size">40</div>
+            <div class="size">42</div>
+            <div class="size">44</div>
+        </div>
+        <button class="button-product">Compre agora</button>
+    </div>
+    <div class="payment">
+        <h1 class="pay-title">Informações pessoas</h1>
+        <input type="text" class="pay-input" placeholder="Nome e Sobrenome">
+        <input type="number" class="pay-input" placeholder="Número para contato">
+        <input type="text" class="pay-input" placeholder="Endereço">
+        <h1 class="pay-title">Informações do Cartão</h1>
+        <div class="card-icons">
+            <img src="/img/visa.png" width="40" class="card-icon">
+            <img src="/img/master.png" width="40" class="card-icon">
+        </div>
+        <input type="password" class="pay-input" placeholder="Número do cartão">
+        <div class="card-info">
+            <input type="text" placeholder="mês" class="pay-input sm">
+            <input type="text" placeholder="ano" class="pay-input sm">
+            <input type="text" placeholder="cvv" class="pay-input sm">
+        </div>
+        <button class="pay-button">Confirmar</button>
+        <span class="close">X</span>
+    </div>
+</body>
+<footer>
+    <div class="footer-left">
+        <div class="footer-menu">
+            <h1 class="f-menu-title">Sobre Nós</h1>
+            <ul class="f-list">
+                <li class="f-list-item">Compania</li>
+                <li class="f-list-item">Contato</li>
+                <li class="f-list-item">Afiliados</li>
+                <li class="f-list-item">Lojas</li>
+            </ul>
+        </div>
+        <div class="footer-menu">
+            <h1 class="f-menu-title">Links úteis</h1>
+            <ul class="f-list">
+                <li class="f-list-item">Suporte</li>
+                <li class="f-list-item">Ressarcimento</li>
+                <li class="f-list-item">SAC</li>
+                <li class="f-list-item">Feedback</li>
+            </ul>
+        </div>
+        <div class="footer-menu">
+            <h1 class="f-menu-title">Produtos</h1>
+            <ul class="f-list">
+                <li class="f-list-item">Air Force</li>
+                <li class="f-list-item">Air Jordan</li>
+                <li class="f-list-item">Blazer</li>
+                <li class="f-list-item">Crater</li>
+                <li class="f-list-item">Hippie</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-right-menu">
+        <h1 class="f-menu-title">Siga a gente!</h1>
+        <div class="f-icons">
+            <img src="/img/instagram.png" class="f-icon">
+            <img src="/img/twitter.png" class="f-icon">
+            <img src="/img/whatsapp.png" class="f-icon">
+        </div>
+    </div>
+</footer>
+<script src="/app.js"></script>
+
+</html>
